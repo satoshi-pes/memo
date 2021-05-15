@@ -11,6 +11,9 @@ Go言語で相対インポートしたい時に。（2021/5/15）
 - [Wrapping and Un-wrapping of error in Go](https://golangbyexample.com/wrapping-and-unwrapping-error-golang/)  
 いつの間にやらGo言語でerrorのwrappingがサポートされていた。(2021/5/15)
 
+- [github.com/spf13/cobraの挙動](https://satoshi-pes.github.io/memo/golang_cobra_init)  
+Goのサブコマンド実装モジュールcobraの実行時の挙動。（2021/5/16）
+
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
 
