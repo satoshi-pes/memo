@@ -3,7 +3,7 @@
 以前のGo言語では、ソース上で相対インポートも可能だったけれど、最近はそれができなくなった。  
 とはいえ、軽くテストしたい時はそれも不便だったりするので、go.modで相対インポートができるようになっている。
 
-https://golang.org/doc/tutorial/call-module-code
+[Call your code from another module](https://golang.org/doc/tutorial/call-module-code)
 
 手順としては、とりあえずソースでは適当なモジュール名でインポートしておく。
 
