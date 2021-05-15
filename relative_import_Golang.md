@@ -41,3 +41,6 @@
 これで、go run main.goのように実行可能になる。  
 
 若干面倒かもしれないけど、慣れればそれほどでもないし、モジュール名も本番用のまま書き始められて、良いことの方が多い気はする。
+
+### satoshi-pes's GitHub Pages
+[https://satoshi-pes.github.io/memo/]
