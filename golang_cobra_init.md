@@ -8,3 +8,5 @@
     root.initConfig()  // config file 読み込み
     cobra.command()  // subcommand 実行
 
+### satoshi-pes's GitHub Pages
+[https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
