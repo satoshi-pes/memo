@@ -5,7 +5,9 @@ GNSSやプログラミング等のメモ
 ### Go言語
 
 - [Go言語で相対インポート](https://satoshi-pes.github.io/memo/relative_import_Golang)  
-Go言語で相対インポートしたい時に。
+Go言語で相対インポートしたい時に。（2021/5/15）
+- [Wrapping and Un-wrapping of error in Go](https://golangbyexample.com/wrapping-and-unwrapping-error-golang/)
+いつの間にやらGo言語でerrorのwrappingがサポートされていた。(2021/5/15)
 
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
