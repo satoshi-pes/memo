@@ -4,7 +4,7 @@ GNSSやプログラミング等のメモ
 
 ### Go言語
 
-- [Go言語で相対インポート](https://github.com/satoshi-pes/memo/blob/gh-pages/relative_import_Golang.md)  
+- [Go言語で相対インポート](https://satoshi-pes.github.io/memo/relative_import_Golang)  
 Go言語で相対インポートしたい時に。
 
 ### Support or Contact
