@@ -14,6 +14,9 @@ Go言語で相対インポートしたい時に。（2021/5/15）
 - [github.com/spf13/cobraの挙動](https://satoshi-pes.github.io/memo/golang_cobra_init)  
 Goのサブコマンド実装モジュールcobraの実行時の挙動。（2021/5/16）
 
+- [Go言語でファイル解凍しながら読み込み](https://satoshi-pes.github.io/memo/decompress_files)  
+Goでファイル解凍しながら処理をしたい時に。あと、Goで.Zファイル（compressファイル）も同様に処理したい時に。（2021/5/22）
+
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
 
