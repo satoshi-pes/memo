@@ -7,7 +7,8 @@
 
 go言語で.Z形式のファイルをdecompressするものは標準ライブラリに無さそうだったので、下記のパッケージを使用。
 
-[hotei/dcompress](call-module-codehttps://github.com/hotei/dcompress)
+[hotei/dcompress](call-module-codehttps://github.com/hotei/dcompress)  
+
 
 
     package main
