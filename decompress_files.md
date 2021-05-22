@@ -24,7 +24,7 @@ go言語で.Z形式のファイルをdecompressするものは標準ライブラ
     )
     
     func main() {
-    	file1 := "example.Z"
+        file1 := "example.Z"
 
 	    f, err := os.Open(file1)
 	    if err != nil {
