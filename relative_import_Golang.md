@@ -25,7 +25,7 @@
 下記の-replaceの部分で置き換えるモジュールの実際のパスを指定する。
 
     >> go mod init
-    >> go mod -replace=example.com/greetings=../greetings
+    >> go mod edit -replace=example.com/greetings=../greetings
     >> go mod tidy
 
 すると、go.modが下記のように更新され、相対インポートのパスが書き込まれる。
