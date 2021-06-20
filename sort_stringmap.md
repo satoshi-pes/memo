@@ -10,7 +10,7 @@ go言語ではmapのkeyをsortして出力する機能は標準で実装され�
     sort.Strings(keys)
     
     for k := range keys {
-        _= stringMap[k]  // do something
+        _ = stringMap[k]  // do something
     }
 
 ### satoshi-pes's GitHub Pages
