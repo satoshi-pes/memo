@@ -17,6 +17,9 @@ Goのサブコマンド実装モジュールcobraの実行時の挙動。（2021
 - [Go言語でファイル解凍しながら読み込み](https://satoshi-pes.github.io/memo/decompress_files)  
 Goでファイル解凍しながら処理をしたい時に。あと、Goで.Zファイル（compressファイル）も同様に処理したい時に。（2021/5/22）
 
+- [Go言語でmapのkeyをsortする](https://satoshi-pes.github.io/memo/sort_stringmap)  
+Goではmapのkeyをsortして出力する機能が標準にないので。（2021/6/20）
+
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
 
