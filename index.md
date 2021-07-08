@@ -20,6 +20,9 @@ Goでファイル解凍しながら処理をしたい時に。あと、Goで.Z�
 - [Go言語でmapのkeyをsortする](https://satoshi-pes.github.io/memo/sort_stringmap)  
 Goではmapのkeyをsortして出力する機能が標準にないので。（2021/6/20）
 
+- [chart.jsで時系列データをプロット](https://satoshi-pes.github.io/memo/chartjs_example1)  
+chart.jsで時系列データをプロット。以外に表示に手間取ったのでメモ。（2021/7/9）
+
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
 
