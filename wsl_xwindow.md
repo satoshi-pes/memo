@@ -14,9 +14,16 @@ wslでxwindowを使っていたらいくつかエラーが出たので、その�
 	export LIBGL_ALWAYS_INDIRECT=1
 
 ここで、DISPLAYにはxserver側のIPアドレスと、使うディスプレイ番号を指定する。面倒なので、IPアドレスは固定にした。
+
 また、その他の設定は、wslでサポートしていない(?)libGLによるハードウェアレンダリングをオフにしたりというもの。
 
 あとは、適当なXserverをwindowsにインストールして完了。
+
+追記：VcXsvの場合、"Disable access control"にチェックを入れておかないと、  
+
+	Authorization required, but no authorization protocol specified  
+
+がでる。
 
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
