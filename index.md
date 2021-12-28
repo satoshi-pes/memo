@@ -28,7 +28,7 @@ chart.jsで時系列データをプロット。以外に表示に手間取った
 - [wslのxwindow設定](https://satoshi-pes.github.io/memo/wsl/wsl_xwindow)  
 wslでxwindowを使ったらいくつかエラーが出たので、エラーがひとまず出ないようにする設定。（2021/12/12）
 
-- [wslでfont追加](https://satoshi-pes.github.io/memo/wsl/wsl_font) 
+- [wslでfont追加](https://satoshi-pes.github.io/memo/wsl/wsl_font)   
 wslでmatplotlibを使っていたら、fontが無いと文句を言われたので解決方法。ちなみにubuntu。（2021/12/28） 
 
 ### satoshi-pes's GitHub Pages

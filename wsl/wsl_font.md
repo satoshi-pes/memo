@@ -21,7 +21,7 @@ wslでmatplotlibを使っていたら、フォントがインストールされ�
 
 あとは、matplotlibで使いたいフォントを指定すればOK。
 
-	    plt.rcParams["font.family"] = "font"   # さっき入れたフォント
+	plt.rcParams["font.family"] = "font"   # さっき入れたフォント
 
 
 ### satoshi-pes's GitHub Pages
