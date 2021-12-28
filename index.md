@@ -25,7 +25,7 @@ Goではmapのkeyをsortして出力する機能が標準にないので。（20
 - [chart.jsで時系列データをプロット](https://satoshi-pes.github.io/memo/chartjs_example1)  
 chart.jsで時系列データをプロット。以外に表示に手間取ったのでメモ。（2021/7/9）
 
-- [wslのxwindow設定](https://satoshi-pes.github.io/memo/wsl_xwindow)  
+- [wslのxwindow設定](https://satoshi-pes.github.io/memo/wsl/wsl_xwindow)  
 wslでxwindowを使ったらいくつかエラーが出たので、エラーがひとまず出ないようにする設定。（2021/12/12）
 
 ### satoshi-pes's GitHub Pages
