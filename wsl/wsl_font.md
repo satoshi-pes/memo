@@ -15,13 +15,16 @@ wslでmatplotlibを使っていたら、フォントがインストールされ�
 ただ、これだけだとmatplotlibのフォントが変更されない。
 
 原因はmatplotlibのフォントキャッシュらしい。
-容赦なくキャッシュを削除する。これでOK。
+容赦なくキャッシュを削除する。
 
 	rm ~/.cache/matplotlib/fontlist-v330.json
 
 あとは、matplotlibで使いたいフォントを指定すればOK。
+後で加工したい時は、pdf.fonttypeで42を指定しておく。（affinity designerではこれで編集できた。）
 
 	plt.rcParams["font.family"] = "font"   # さっき入れたフォント
+	plt.rcParams['pdf.fonttype'] = 42
+
 
 
 ### satoshi-pes's GitHub Pages
