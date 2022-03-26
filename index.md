@@ -2,6 +2,11 @@
 
 GNSSやプログラミング等のメモ
 
+### GNSS関係
+
+- [RINEXバージョン間の違いメモ](https://satoshi-pes.github.io/memo/gnss/diff_rinex_formats)  
+RINEXバージョン間の違いをメモ。ひとまずヘッダーについてまとめた。（2022/3/26）
+
 ### Go言語
 
 - [Go言語で相対インポート](https://satoshi-pes.github.io/memo/relative_import_Golang)  
