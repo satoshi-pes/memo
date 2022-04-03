@@ -36,6 +36,11 @@ wslでxwindowを使ったらいくつかエラーが出たので、エラーが�
 - [wslでfont追加](https://satoshi-pes.github.io/memo/wsl/wsl_font)   
 wslでmatplotlibを使っていたら、fontが無いと文句を言われたので解決方法。ちなみにubuntu。（2021/12/28） 
 
+### 便利なリンク
+
+- [Programming Fonts](https://www.programmingfonts.org)
+プログラミング用フォントをテストできるサイト。
+
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
 
