@@ -7,11 +7,13 @@ GNSSやプログラミング等のメモ
 - [RINEXバージョン間の違いメモ](https://satoshi-pes.github.io/memo/gnss/diff_rinex_formats)  
 RINEXバージョン間の違いをメモ。ひとまずヘッダーについてまとめた。（2022/3/26）
 
+- [RINEX v4.00のnavigation messageの違い](https://satoshi-pes.github.io/memo/gnss/diff_rinex_navs)  
+いまさらながらRINEX version4.00を読んだので新しく入ったCNAV等のフォーマットの違いをまとめた。（2022/4/8）
+
 ### Go言語
 
 - [Go言語で相対インポート](https://satoshi-pes.github.io/memo/relative_import_Golang)  
 Go言語で相対インポートしたい時に。（2021/5/15）
-
 
 - [Wrapping and Un-wrapping of error in Go](https://golangbyexample.com/wrapping-and-unwrapping-error-golang/)  
 いつの間にやらGo言語でerrorのwrappingがサポートされていた。(2021/5/15)
