@@ -11,12 +11,14 @@ RINEXでは、version3まではLNAVのみをサポートしていたが、versio
 
 ### まとめ表
 (共通)
-|                 | GPS(LNAV)                                | 
-| :-------------- | :--------------------------------------- | 
-| TYPE/SV/MSSG    | - New Record identifier: >               | 
-|                 | - Navigation Data Record Type – EPH      | 
-|                 | - Satellite system (G), sat number (PRN) | 
-|                 | - Navigation Message Type - LNAV         | 
+
+|              | GPS(LNAV)                                |
+| ------------ | ---------------------------------------- |
+| TYPE/SV/MSSG | - New Record identifier: >               |
+|              | - Navigation Data Record Type – EPH      |
+|              | - Satellite system (G), sat number (PRN) |
+|              | - Navigation Message Type - LNAV         |
+
 
 (Navigation message)
 |                 | GPS(LNAV)               | GPS(CNAV)    | GPS(CNAV2)   | GAL(INAV/FNAV) | QZSS(LNAV)    | QZSS(CNAV)   | QZSS(CNAV2)  | BDS(D1/D2)  | BDS(CNAV-1)  | BDS(CNAV-2)   | BDS(CNAV-3)  | NavIC(LNAV) |
