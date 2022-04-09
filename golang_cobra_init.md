@@ -8,5 +8,7 @@
     root.initConfig()  // config file 読み込み
     cobra.command()  // subcommand 実行
 
+[cobra User Guide "PreRun and PostRun Hooks"](https://github.com/spf13/cobra/blob/master/user_guide.md#prerun-and-postrun-hooks)
+
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)

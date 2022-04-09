@@ -38,6 +38,12 @@ wslでxwindowを使ったらいくつかエラーが出たので、エラーが�
 - [wslでfont追加](https://satoshi-pes.github.io/memo/wsl/wsl_font)   
 wslでmatplotlibを使っていたら、fontが無いと文句を言われたので解決方法。ちなみにubuntu。（2021/12/28） 
 
+### 作ったプログラム等
+
+- [gnsscal](https://github.com/satoshi-pes/gnsscal)  
+calコマンド風にDOY, GNSS weekを表示するプログラム。  
+国土地理院が提供しているgpscalをGNSSに拡張したもの。（Go言語で作成）
+
 ### 便利なリンク
 
 - [Programming Fonts](https://www.programmingfonts.org)
