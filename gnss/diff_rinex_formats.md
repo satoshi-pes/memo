@@ -52,6 +52,8 @@ RINEX version3.02以降は内容が安定しているのだが、その前は色
 |PRN / # OF OBS      |  *   |                              *   |  *   |  *   |  *   |  *   |  -   |      |
 |END OF HEADER       |      |                                  |      |      |      |      |      |      |
 
+#### memo
+※intervalのフォーマットはversion2の頃はI6だった。version2.10以降はF10.3。しかしIGSのRINEXにはINTERVALがF10.4で出力されたものがたくさんある。変換ソフトにバグがあったのだろうか。
 
 
 ### satoshi-pes's GitHub Pages

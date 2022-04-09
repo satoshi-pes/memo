@@ -66,5 +66,87 @@ RINEXでは、version3まではLNAVのみをサポートしていたが、versio
 |                 |                         |              |              |                |               |              |              |             | IODE         | IODE          |              |             |
 
 
+### 共通で使いそうなもの
+- 上からIDOTまではLNAV, CNAVでほぼ共通
+- Delta n0 dot: CNAVで共通
+- SV Health: LNAV, CNAV両方で使う。ただし、bitの定義はそれぞれ異なる。
+- Week number: かならず入っているわけではないけど、概ね共通
+- t_tm (transmission time)
+- TGD (time of group delay between L1 and L2): しかし複数のTGDがある場合があるので、どうするか？
+- ISC: CNAVではよく使いそう
+- URAI_ED, URAI_NED: これもCNAVではよく使いそう
+
+Beidouのメッセージは他の衛星と構成が異なる。どうする？？
+
+
+### 意味分からなかった言葉メモ
+
+(GPS, QZS)
+- URAI_ED  
+   Elevation-Dependent (ED) Use Range Accuracy Index  
+- URAI_NED0  
+ Non-Elevation-Dependent (NED) Accuracy Index  
+- URAI_NED1  
+ NED Accuracy Change Index  
+- URAI_NED2  
+ NED Accuracy Change Rate Index  
+- ISC_L1C/A  
+ Inter-Signal Correction (L1C/A)  
+- ISC_L2C  
+ Inter-Signal Correction (L2C)  
+- ISC_L5I5  
+ Inter-Signal Correction (L5I5)  
+- ISC_L5Q5  
+ Inter-Signal Correction (L5Q5)  
+
+(Beidou)  
+- SISAI  
+ Signal In Space Accuracy Index  
+- SISAI_oe  
+ satellite orbit along-track and cross-track accuracy (SISA_oe) index  
+- SISAI_ocb  
+ satellite orbit radius and fixed satellite clock bias accuracy (SISA_ocb) index  
+- SISAI_oc1  
+ satellite clock bias accuracy (SISA_oc1) index  
+- SISAI_oc2  
+ satellite clock drift accuracy (SISA_oc2) index  
+- t_op  
+  time of week for data prediction  
+- SISMAI (Signal In Space Monitoring Accuracy Index)
+  The estimated error of the signal in space accuracy is described by the zero-mean Gaussian distribution model. The signal in space monitoring accuracy (SISMA) is the variance of the Gaussian distribution, which is indicated by the signal in space monitoring accuracy index (SISMAI).
+  The specific definitions of the signal in space monitoring accuracy index parameters will be published in a future update of this ICD.  ([ICD-BDS-B1C](http://www.beidou.gov.cn/xt/gfxz/201712/P020171226741342013031.pdf))
+
+(from IS-GPS-705H)
+#### URA_ED
+
+    The nominal URA ED value (X) is suitable for use as a conservative prediction of the RMS ED range errors for accuracy-related purposes in the pseudorange domain (e.g., measurement de-weighting, RAIM, FOM computations). Integrity properties of the IAURA ED are specified with respect to the scaled (multiplied by either 4.42 or 5.73 as appropriate) upper bound values of the broadcast URA ED index (see 20.3.3.1.1).
+   
+    For the nominal URA ED value and the IAURA ED value, users may compute an adjusted URA ED value as a function of SV elevation angle (E), for E >= 0, as follows:
+
+    Adjusted Nominal URA ED = Nominal URA ED (sin(E+90 degrees))
+    
+    Adjusted IAURA ED = IAURA ED (sin(E+90 degrees))
+
+    URA ED and IAURA ED account for SIS contributions to user range error which include, but are not limited to, the following: LSB representation/truncation error, alongtrack ephemeris errors, and crosstrack ephemeris errors. URA ED and IAURA ED do not account for user range error contributions due to the inaccuracy of the broadcast ionospheric data parameters used in the single-frequency ionospheric model or for other atmospheric effects.
+
+#### URA_NED
+
+    The user shall calculate the NED-related URA with the equation (in meters);
+
+    IAURA_NED = URA_NED0 + URA_NED1 (t - t_op + 604,800*(WN - WN_op )) for t - t_op + 604,800*(WN - WN_op ) ≤ 93,600 seconds
+
+    IAURA_NED = URA_NED0 + URA_NED1 *(t - t_op + 604,800*(WN - WN_op )) + URA NED2 *(t - t_op + 604,800*(WN - WN_op ) - 93,600) 2 for t - t_op + 604,800*(WN - WN_op ) > 93,600 seconds
+
+    where t is the GPS system time
+
+    IAURA: Integrity Assured URA
+
+
+#### T_op
+
+    T_op: the CEI data sequence propagation time of week (t_op). The t_op term provides the epoch time of week of the state data utilized for propagating the SV clock correction coefficients forward in time. Users are cautioned to avoid using this parameter to compute age of data for any SV.
+
+    CEI: Clock, Ephemeris, Integrity
+
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)
