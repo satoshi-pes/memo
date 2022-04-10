@@ -5,6 +5,9 @@
 RINEXでは、version3まではLNAVのみをサポートしていたが、version4からはCNAVにも対応し、仕様としてはかなり複雑なものになった。  
 とはいえ、軌道精度は上がるはず。  
 
+CNAVのEOPの精度比較はこの論文にまとめられている。ノミナルなEOPを使うより良くなるはず。  
+[Steigenberger, P., Montenbruck, O., Bradke, M. et al. Evaluation of earth rotation parameters from modernized GNSS navigation messages. GPS Solut 26, 50 (2022). https://doi.org/10.1007/s10291-022-01232-4](https://link.springer.com/article/10.1007/s10291-022-01232-4)
+
 しかし、Week番号、t_tm (transmission time of message)、Healthフラグの場所は統一して欲しかった。  
 次のversionで保存箇所を揃える等の改訂があったらもう滅茶苦茶になりそうだし、このままなのかな。  
 ドラフト段階で意見出ししておくべきだったんじゃないか。やっちゃったな、これは・・・。
@@ -117,7 +120,7 @@ Beidouのメッセージは他の衛星と構成が異なる。どうする？�
   The specific definitions of the signal in space monitoring accuracy index parameters will be published in a future update of this ICD.  ([ICD-BDS-B1C](http://www.beidou.gov.cn/xt/gfxz/201712/P020171226741342013031.pdf))
 
 (from IS-GPS-705H)
-#### URA_ED
+- URA_ED
 
     The nominal URA ED value (X) is suitable for use as a conservative prediction of the RMS ED range errors for accuracy-related purposes in the pseudorange domain (e.g., measurement de-weighting, RAIM, FOM computations). Integrity properties of the IAURA ED are specified with respect to the scaled (multiplied by either 4.42 or 5.73 as appropriate) upper bound values of the broadcast URA ED index (see 20.3.3.1.1).
    
@@ -129,7 +132,7 @@ Beidouのメッセージは他の衛星と構成が異なる。どうする？�
 
     URA ED and IAURA ED account for SIS contributions to user range error which include, but are not limited to, the following: LSB representation/truncation error, alongtrack ephemeris errors, and crosstrack ephemeris errors. URA ED and IAURA ED do not account for user range error contributions due to the inaccuracy of the broadcast ionospheric data parameters used in the single-frequency ionospheric model or for other atmospheric effects.
 
-#### URA_NED
+- URA_NED
 
     The user shall calculate the NED-related URA with the equation (in meters);
 
@@ -142,7 +145,7 @@ Beidouのメッセージは他の衛星と構成が異なる。どうする？�
     IAURA: Integrity Assured URA
 
 
-#### T_op
+- T_op
 
     T_op: the CEI data sequence propagation time of week (t_op). The t_op term provides the epoch time of week of the state data utilized for propagating the SV clock correction coefficients forward in time. Users are cautioned to avoid using this parameter to compute age of data for any SV.
 

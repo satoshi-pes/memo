@@ -44,6 +44,11 @@ wslでmatplotlibを使っていたら、fontが無いと文句を言われたの
 calコマンド風にDOY, GNSS weekを表示するプログラム。  
 国土地理院が提供しているgpscalをGNSSに拡張したもの。（Go言語で作成）
 
+- [gnsstime.py](https://github.com/satoshi-pes/gnsstime.py)  
+pythonのdatetimeパッケージをgnss用に拡張したもの。  
+DOYやGPS Weekの計算なんかもできる。  
+pipでもインストールできるようにしてある。
+
 ### 便利なリンク
 
 - [Programming Fonts](https://www.programmingfonts.org)
