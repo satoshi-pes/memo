@@ -15,6 +15,7 @@ package main
 /*
 #include <stdlib.h>
 */
+import "C"
 ```
 
 ### fortranを呼びだすには"iso_c_binding"を使う
