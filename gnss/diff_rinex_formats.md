@@ -54,7 +54,7 @@ RINEX version3.02以降は内容が安定しているのだが、その前は色
 
 #### memo
 ※intervalのフォーマットはversion2の頃はI6だった。version2.10以降はF10.3。しかしIGSのRINEXにはINTERVALがF10.4で出力されたものがたくさんある。変換ソフトにバグがあったのだろうか。
-
+*"Time OF FIRST OBS", "TIME OF LAST OBS"の秒のフォーマットはRINEX2ではF12.6, RINEX2.10からはF13.7。
 
 ### satoshi-pes's GitHub Pages
 [https://satoshi-pes.github.io/memo/](https://satoshi-pes.github.io/memo/)

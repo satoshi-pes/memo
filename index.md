@@ -27,6 +27,9 @@ Goでファイル解凍しながら処理をしたい時に。あと、Goで.Z�
 - [Go言語でmapのkeyをsortする](https://satoshi-pes.github.io/memo/sort_stringmap)  
 Goではmapのkeyをsortして出力する機能が標準にないので。（2021/6/20）
 
+- [Go言語からfortranを呼び出す方法](https://satoshi-pes.github.io/memo/golang_call_fortran)  
+Goからfortranを簡単に呼び出す方法があまり見当たらなかったので、少しまとめてみた。(2022/8/15)
+
 ### その他メモ
 
 - [chart.jsで時系列データをプロット](https://satoshi-pes.github.io/memo/chartjs_example1)  
@@ -37,6 +40,9 @@ wslでxwindowを使ったらいくつかエラーが出たので、エラーが�
 
 - [wslでfont追加](https://satoshi-pes.github.io/memo/wsl/wsl_font)   
 wslでmatplotlibを使っていたら、fontが無いと文句を言われたので解決方法。ちなみにubuntu。（2021/12/28） 
+
+- [When To Use Generics](https://golang.google.cn/blog/when-generics)  
+
 
 ### 作ったプログラム等
 

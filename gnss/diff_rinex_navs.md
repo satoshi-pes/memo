@@ -3,9 +3,17 @@
 いまさらながらRINEX version4.00を読む。
 
 RINEXでは、version3まではLNAVのみをサポートしていたが、version4からはCNAVにも対応し、仕様としてはかなり複雑なものになった。  
-とはいえ、軌道精度は上がるはず。  
+- とはいえ、軌道パラメータは詳細になり、日々のERPも入るようになった。  
+- ちなみにGLONASSのephはRINEX3.05から少し拡張されているので注意が必要。  
+- version4から、navigationの値の指数表現にはD,dが許容されるものの、非推奨になった。  
+D,dはFortranの倍精度実数の指数表現の名残だけれど、Go言語では非標準で、読み込むには標準ライブラリstrconv.ParseFloatのソースをいじったりする必要があったのでこれは良い変更。  
+（Fortran使いの方は辛いかもしれないけれど）  
 
-CNAVのEOPの精度比較はこの論文にまとめられている。ノミナルなEOPを使うより良くなるはず。  
+    atof.goのreadFloatで、  
+    expChar := byte('e') <- ここを'd'にするとか。
+
+
+CNAVのEOPの精度比較はこの論文にまとめられている。  
 [Steigenberger, P., Montenbruck, O., Bradke, M. et al. Evaluation of earth rotation parameters from modernized GNSS navigation messages. GPS Solut 26, 50 (2022). https://doi.org/10.1007/s10291-022-01232-4](https://link.springer.com/article/10.1007/s10291-022-01232-4)
 
 しかし、Week番号、t_tm (transmission time of message)、Healthフラグの場所は統一して欲しかった。  
