@@ -27,7 +27,7 @@ Goでファイル解凍しながら処理をしたい時に。あと、Goで.Z�
 - [Go言語でmapのkeyをsortする](https://satoshi-pes.github.io/memo/sort_stringmap)  
 Goではmapのkeyをsortして出力する機能が標準にないので。（2021/6/20）
 
-- [Go言語からfortranを呼び出す方法](https://satoshi-pes.github.io/memo/golang_call_fortran)  
+- [Go言語からfortranを呼び出す方法](https://satoshi-pes.github.io/memo/golang/golang_call_fortran)  
 Goからfortranを簡単に呼び出す方法があまり見当たらなかったので、少しまとめてみた。(2022/8/15)
 
 ### その他メモ
