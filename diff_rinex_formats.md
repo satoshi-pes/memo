@@ -16,7 +16,7 @@ RINEX version3.02以降は内容が安定しているのだが、その前は色
 |PGM / RUN BY / DATE |      |                                  |      |      |      |      |    || RINEX4からは複数行指定できるようになった     |
 |COMMENT             |  *   |                              *   |  *   |  *   |  *   |  *   |  *   | * |      | 
 |MARKER NAME         |      |                                  |      |      |      |      |   |   |     |
-|MARKER NUMBER       |  *   |                              *   |  *   |  *   |  *   |      |  *  | * |     |
+|MARKER NUMBER       |  *   |                              *   |  *   |  *   |  *   |  *  |  *  | * |     |
 |MARKER TYPE         |      |                                  |      |      |  -   |  -   |  -   | - |    |
 |OBSERVER / AGENCY   |      |                                  |      |      |      |      |   |  |     |
 |REC # / TYPE / VERS |      |                                  |      |      |      |      |   |  |      |
